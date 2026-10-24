@@ -1,0 +1,1580 @@
+{
+  "source": "https://order.ghalib.com.pk/",
+  "restaurant": "Ghalib Restaurant",
+  "scraped_at": "2026-10-07T20:33:04.974Z",
+  "currency": "PKR",
+  "category_count": 17,
+  "item_count": 161,
+  "categories": [
+    {
+      "id": "deals",
+      "name": "Deals",
+      "image_url": "https://assets.indolj.io/upload/1713771843-_0011_Deals.jpg",
+      "item_count": 3
+    },
+    {
+      "id": "new-addition",
+      "name": "New Addition",
+      "image_url": null,
+      "item_count": 11
+    },
+    {
+      "id": "starters",
+      "name": "Starters",
+      "image_url": "https://assets.indolj.io/upload/1713771799-_0009_Starters.jpg",
+      "item_count": 21
+    },
+    {
+      "id": "bbq",
+      "name": "BBQ",
+      "image_url": "https://assets.indolj.io/upload/1713771786-_0008_BBQ.jpg",
+      "item_count": 22
+    },
+    {
+      "id": "chaat",
+      "name": "Chaat",
+      "image_url": "https://assets.indolj.io/upload/1753798498-CHAAT.jpg",
+      "item_count": 5
+    },
+    {
+      "id": "karahi",
+      "name": "Karahi",
+      "image_url": "https://assets.indolj.io/upload/1713771774-_0007_Karahi.jpg",
+      "item_count": 8
+    },
+    {
+      "id": "handi",
+      "name": "Handi",
+      "image_url": "https://assets.indolj.io/upload/1713771763-_0006_Handi.jpg",
+      "item_count": 4
+    },
+    {
+      "id": "chef-s-recommendation",
+      "name": "Chef's Recommendation",
+      "image_url": "https://assets.indolj.io/upload/1713771900-_0002_CHEF'S-RECOMMENDATION.jpg",
+      "item_count": 6
+    },
+    {
+      "id": "flavors-of-the-world",
+      "name": "Flavors of the World",
+      "image_url": "https://assets.indolj.io/upload/1713771747-_0005_Flavors-of-the-World.jpg",
+      "item_count": 13
+    },
+    {
+      "id": "steaks",
+      "name": "Steaks",
+      "image_url": "https://assets.indolj.io/upload/1713771736-_0004_Steaks.jpg",
+      "item_count": 7
+    },
+    {
+      "id": "brick-oven-pizza",
+      "name": "Brick Oven Pizza",
+      "image_url": "https://assets.indolj.io/upload/1713771539-_0003_BRICK-OVEN-PIZZA.jpg",
+      "item_count": 5
+    },
+    {
+      "id": "kid-s-corner",
+      "name": "Kid's Corner",
+      "image_url": "https://assets.indolj.io/upload/1713771726-_0001_KID'S-CORNER.jpg",
+      "item_count": 3
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "image_url": "https://assets.indolj.io/upload/1713771714-_0002_Rice.jpg",
+      "item_count": 4
+    },
+    {
+      "id": "naan-paratha-and-chapati",
+      "name": "Naan, Paratha & Chapati",
+      "image_url": "https://assets.indolj.io/upload/1713771698-_0001_Naan,-Paratha-&-Chapati.jpg",
+      "item_count": 9
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "image_url": "https://assets.indolj.io/upload/1713771681-_0000_Desserts.jpg",
+      "item_count": 12
+    },
+    {
+      "id": "hot-beverages",
+      "name": "Hot Beverages",
+      "image_url": null,
+      "item_count": 4
+    },
+    {
+      "id": "cold-beverages",
+      "name": "Cold Beverages",
+      "image_url": "https://assets.indolj.io/upload/1753798522-COLD-BEVERAGES.jpg",
+      "item_count": 24
+    }
+  ],
+  "items": [
+    {
+      "id": "deal-1-778846",
+      "name": "Deal 1",
+      "price": 1760,
+      "category": "Deals",
+      "description": "Half peshawari chicken karahi + 3 naan",
+      "image_url": "https://assets.indolj.io/upload/1755251039-Deal%201_11zon.jpg"
+    },
+    {
+      "id": "deal-2-778849",
+      "name": "Deal 2",
+      "price": 1375,
+      "category": "Deals",
+      "description": "Club sandwich + soft drink",
+      "image_url": "https://assets.indolj.io/upload/1755251128-Deal%204_11zon.jpg"
+    },
+    {
+      "id": "combo-box-696029",
+      "name": "Combo Box",
+      "price": 2950,
+      "category": "Deals",
+      "description": "1 Chicken Biryani, 1/2 Chicken Peshawari Karahi, 1 Malai boti or Chicken Bihari boti with Raita, 2 Naan & 2 Puri paratha & 2 Soft drinks.",
+      "image_url": "https://assets.indolj.io/upload/1756898657-combo%20box.webp"
+    },
+    {
+      "id": "crispy-bhindi-new-778758",
+      "name": "Crispy Bhindi (new)",
+      "price": 690,
+      "category": "New Addition",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1756897915-Crispy%20Bhindi.webp",
+      "featured_in": [
+        "Starters"
+      ]
+    },
+    {
+      "id": "dhaka-fish-new-778759",
+      "name": "Dhaka Fish (new)",
+      "price": 1390,
+      "category": "New Addition",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1756897943-dhaka%20fish.webp"
+    },
+    {
+      "id": "buffalo-chicken-burger-778760",
+      "name": "Buffalo Chicken Burger",
+      "price": 1250,
+      "category": "New Addition",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1756897698-Buffalo%20Chicken%20Burger.webp",
+      "tag": "New Arrival",
+      "featured_in": [
+        "Flavors of the World"
+      ]
+    },
+    {
+      "id": "chicken-chowmein-778761",
+      "name": "Chicken Chowmein",
+      "price": 1190,
+      "category": "New Addition",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1756897888-chicken%20chowmein.webp",
+      "tag": "New Arrival"
+    },
+    {
+      "id": "chicken-chilli-dry-778762",
+      "name": "Chicken Chilli Dry",
+      "price": 1450,
+      "category": "New Addition",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1756897857-Chicken%20Chilli%20Dry.webp",
+      "tag": "New Arrival",
+      "featured_in": [
+        "Flavors of the World"
+      ]
+    },
+    {
+      "id": "dry-beef-chilli-778763",
+      "name": "Dry Beef Chilli",
+      "price": 1750,
+      "category": "New Addition",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1756897814-beef%20chilli%20dry.webp",
+      "tag": "New Arrival",
+      "featured_in": [
+        "Flavors of the World"
+      ]
+    },
+    {
+      "id": "shawarma-platter-778764",
+      "name": "Shawarma Platter",
+      "price": 1600,
+      "category": "New Addition",
+      "description": "Juicy Shawarma Chicken, Mexican Rice, Cucumber, Lettuce and Onions with tangy white and red sauces.",
+      "image_url": "https://assets.indolj.io/upload/1756898147-Shawarma%20Platter.webp",
+      "tag": "New Arrival",
+      "featured_in": [
+        "Flavors of the World"
+      ]
+    },
+    {
+      "id": "kunafa-778773",
+      "name": "kunafa",
+      "price": 900,
+      "category": "New Addition",
+      "description": "Indulge in the luscious layers of crispy, sweet kunafa pastry, filled with ooey-gooey cheese and soaked in fragrant syrup. This Middle Eastern delight is a decadent treat that will leave your taste buds craving for more with every bite. Savor the harmonious combination of crunchy, creamy, and syrupy textures in every mouthful of this delectable dessert.",
+      "image_url": "https://assets.indolj.io/upload/1756898004-kunafa.webp",
+      "tag": "New Arrival",
+      "featured_in": [
+        "Desserts"
+      ]
+    },
+    {
+      "id": "three-milk-cake-slice-778774",
+      "name": "Three Milk Cake Slice",
+      "price": 500,
+      "category": "New Addition",
+      "description": "Indulge in the decadent delight of our Three Milk Cake Slice - a velvety, moist sponge cake soaked in a trio of creamy milks, topped with a luscious layer of whipped cream. Every bite is a heavenly harmony of sweetness and richness that will leave your taste buds begging for more. Treat yourself to a slice of pure culinary bliss!",
+      "image_url": "https://assets.indolj.io/upload/1756898170-three%20milk%20cake.webp"
+    },
+    {
+      "id": "kunafa-three-milk-cake-778775",
+      "name": "Kunafa Three Milk Cake",
+      "price": 750,
+      "category": "New Addition",
+      "description": "Indulge in the exquisite delight of Kunafa Three Milk Cake - a heavenly dessert crafted with layers of delicate pastry soaked in a trio of rich, creamy milks, infused with a touch of fragrant spices. Each luxurious bite offers a symphony of sweet and velvety flavors that will transport your taste buds to paradise. Savor the divine combination of crisp, golden exterior and luscious, melt-in-your-mouth interior in every glorious bite of this decadent treat.",
+      "image_url": "https://assets.indolj.io/upload/1756897975-kunafa%20three%20milk%20cake.webp",
+      "tag": "New Arrival"
+    },
+    {
+      "id": "maash-ki-daal-dhaba-style-new-778843",
+      "name": "Maash Ki Daal - Dhaba Style (new)",
+      "price": 800,
+      "category": "New Addition",
+      "description": "Indulge in the rich and aromatic Maash Ki Daal prepared in a rustic Dhaba Style. This delectable dish boasts a creamy texture and a burst of traditional spices, guaranteeing a true taste of authentic North Indian cuisine. Served hot with a dollop of butter, every spoonful is a savory delight that will leave you craving for more.",
+      "image_url": "https://assets.indolj.io/upload/1756898097-Maash%20ki%20Daal.webp",
+      "featured_in": [
+        "Chef's Recommendation"
+      ]
+    },
+    {
+      "id": "dynamite-chicken-new-746246",
+      "name": "Dynamite Chicken (New)",
+      "price": 990,
+      "category": "Starters",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "chicken-corn-soup-696088",
+      "name": "Chicken Corn Soup",
+      "price": 490,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713618288-Chicken%20Corn%20Soup.jpg",
+      "tag": "Best Seller"
+    },
+    {
+      "id": "hot-and-sour-soup-696089",
+      "name": "Hot & Sour Soup",
+      "price": 490,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713618328-Hot%20and%20Sour%20Soup.jpg"
+    },
+    {
+      "id": "cream-of-chicken-soup-696090",
+      "name": "Cream of Chicken Soup",
+      "price": 490,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713618348-Cream%20of%20Chicken%20Soup.jpg"
+    },
+    {
+      "id": "cream-of-tomato-soup-696091",
+      "name": "Cream of Tomato Soup",
+      "price": 490,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713618370-Cream%20of%20Tomato%20Soup.jpg"
+    },
+    {
+      "id": "seafood-chowder-soup-696094",
+      "name": "SeaFood Chowder Soup",
+      "price": 690,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713618435-SeaFood%20Chowder%20Soup.jpg",
+      "tag": "Popular"
+    },
+    {
+      "id": "grilled-chicken-caesar-salad-696127",
+      "name": "Grilled Chicken Caesar Salad",
+      "price": 1140,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713623408-Grilled%20Chicken%20Caesar%20Salad.jpg"
+    },
+    {
+      "id": "fattoush-696129",
+      "name": "Fattoush",
+      "price": 840,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713623437-Fattoush.jpg"
+    },
+    {
+      "id": "hummus-696131",
+      "name": "Hummus",
+      "price": 720,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713623473-Hummus.jpg"
+    },
+    {
+      "id": "cheese-naan-696132",
+      "name": "Cheese Naan",
+      "price": 770,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713623521-Cheese%20Naan.jpg",
+      "tag": "Hot Selling"
+    },
+    {
+      "id": "lahori-fish-696133",
+      "name": "Lahori Fish",
+      "price": 1340,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713623552-Lahori%20Fish.jpg"
+    },
+    {
+      "id": "bbq-wings-696135",
+      "name": "BBQ Wings",
+      "price": 920,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713625567-BBQ%20Wings.jpg"
+    },
+    {
+      "id": "dynamite-prawns-696137",
+      "name": "Dynamite Prawns",
+      "price": 1240,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713625630-Dynamite%20Prawns.jpg",
+      "tag": "Best Seller"
+    },
+    {
+      "id": "prawn-tempura-696139",
+      "name": "Prawn Tempura",
+      "price": 1850,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713625661-Prawn%20Tempura.jpg"
+    },
+    {
+      "id": "vegetable-spring-rolls-696140",
+      "name": "Vegetable Spring Rolls",
+      "price": 790,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627308-Vegetable%20Spring%20Rolls.jpg"
+    },
+    {
+      "id": "peri-bites-696141",
+      "name": "Peri Bites",
+      "price": 990,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627321-Peri%20Bites.jpg",
+      "tag": "Special Flavors"
+    },
+    {
+      "id": "cheesy-chicken-strips-and-fries-696142",
+      "name": "Cheesy Chicken Strips & Fries",
+      "price": 1090,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627333-Cheesy%20Chicken%20Strips%20AND%20Fries.jpg"
+    },
+    {
+      "id": "loaded-fries-696143",
+      "name": "Loaded Fries",
+      "price": 890,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627346-Loaded%20Fries.jpg"
+    },
+    {
+      "id": "regular-fries-696144",
+      "name": "Regular Fries",
+      "price": 475,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627248-Regular%20Fries.jpg"
+    },
+    {
+      "id": "fresh-green-salad-696145",
+      "name": "Fresh Green Salad",
+      "price": 380,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627275-Fresh%20Green%20Salad.jpg",
+      "tag": "Trending"
+    },
+    {
+      "id": "raita-696146",
+      "name": "Raita",
+      "price": 325,
+      "category": "Starters",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627369-Raita.jpg"
+    },
+    {
+      "id": "chicken-tikka-696147",
+      "name": "Chicken Tikka",
+      "price": 770,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627399-Chicken%20Tikka.jpg",
+      "tag": "Trending",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "shish-taouk-served-with-saffron-rice-and-fries-696150",
+      "name": "Shish Taouk served with saffron rice and fries",
+      "price": 1480,
+      "category": "BBQ",
+      "description": "Served With Saffron Rice",
+      "image_url": "https://assets.indolj.io/upload/1713627484-Shish%20Taouk%20served%20with%20saffron%20rice%20and%20fries.jpg",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "chicken-turkish-kebab-696154",
+      "name": "Chicken Turkish kebab",
+      "price": 1350,
+      "category": "BBQ",
+      "description": "Served With Saffron Rice",
+      "image_url": "https://assets.indolj.io/upload/1713627695-Chicken%20Turkish%20kebab.jpg",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "mix-kabab-platter-746261",
+      "name": "Mix Kabab Platter",
+      "price": 3800,
+      "category": "BBQ",
+      "description": "(Turkish kabab, chullu kabab beef, Persian khaas kabab, chicken reshmi kabab, adana kabab and seekh kabab served on a bed of saffron rice)",
+      "image_url": "https://assets.indolj.io/upload/1756898121-Mix%20Kabab%20Platter.webp"
+    },
+    {
+      "id": "fish-tikka-696148",
+      "name": "Fish Tikka",
+      "price": 1440,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627420-Fish%20Tikka.jpg"
+    },
+    {
+      "id": "chicken-malai-boti-696149",
+      "name": "Chicken Malai Boti",
+      "price": 1380,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627446-Chicken%20Malai%20Boti.jpg"
+    },
+    {
+      "id": "afghani-boti-696151",
+      "name": "Afghani Boti",
+      "price": 1580,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627515-Afghani%20Boti.jpg"
+    },
+    {
+      "id": "beef-seekh-kabab-696152",
+      "name": "Beef Seekh Kabab",
+      "price": 1300,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627537-Beef%20Seekh%20Kabab.jpg",
+      "tag": "Trending"
+    },
+    {
+      "id": "beef-bihari-kebab-696155",
+      "name": "Beef Bihari kebab",
+      "price": 1400,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627722-Beef%20Bihari%20kebab.jpg"
+    },
+    {
+      "id": "chicken-bihari-kebab-696156",
+      "name": "Chicken Bihari Kebab",
+      "price": 1300,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627749-Beef%20Bihari%20kebab.jpg",
+      "tag": "Best Seller"
+    },
+    {
+      "id": "beef-chullu-kabab-696157",
+      "name": "Beef Chullu Kabab",
+      "price": 1400,
+      "category": "BBQ",
+      "description": "Served With Saffron Rice",
+      "image_url": "https://assets.indolj.io/upload/1713627796-Beef%20Chullu%20Kabab.jpg"
+    },
+    {
+      "id": "mutton-persian-khaas-kabab-696158",
+      "name": "Mutton Persian Khaas Kabab",
+      "price": 1950,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627826-Mutton%20Persian%20Khaas%20Kabab.jpg"
+    },
+    {
+      "id": "chicken-reshmi-kabab-696159",
+      "name": "Chicken Reshmi Kabab",
+      "price": 1300,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627855-Chicken%20Reshmi%20Kabab.jpg",
+      "tag": "Most Favourite"
+    },
+    {
+      "id": "fry-kabab-beef-696161",
+      "name": "Fry Kabab (Beef)",
+      "price": 1250,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627929-Fry%20Kabab%20(Beef).jpg"
+    },
+    {
+      "id": "bbq-chargha-696162",
+      "name": "BBQ Chargha",
+      "price": 1500,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713627978-BBQ%20Chargha_11zon.jpg"
+    },
+    {
+      "id": "mutton-masala-chanp-696163",
+      "name": "Mutton Masala Chanp",
+      "price": 2290,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628014-Mutton%20Masala%20Chanp.jpg"
+    },
+    {
+      "id": "tandoori-boti-696164",
+      "name": "Tandoori Boti",
+      "price": 1300,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628066-Tandoori%20Boti_11zon.jpg",
+      "tag": "Trending"
+    },
+    {
+      "id": "mutton-ribs-696165",
+      "name": "Mutton Ribs",
+      "price": 4400,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628119-Mutton%20Ribs.jpg"
+    },
+    {
+      "id": "mixed-platter-696166",
+      "name": "Mixed Platter",
+      "price": 3950,
+      "category": "BBQ",
+      "description": "(Turkish Kabab, Persian Khaas Kabab, Malai Boti, Afghani Boti and Chicken Chops served on a bed of saffron Rice",
+      "image_url": "https://assets.indolj.io/upload/1713628141-Mixed%20Platter.jpg"
+    },
+    {
+      "id": "adana-kabab-711918",
+      "name": "Adana Kabab",
+      "price": 1440,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1750070727-_0006_Adana%20Kebab_11zon.jpg"
+    },
+    {
+      "id": "chicken-cheese-boti-711921",
+      "name": "Chicken Cheese Boti",
+      "price": 1440,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1750070709-_0004_Cheese%20Boti_11zon.jpg"
+    },
+    {
+      "id": "chickenchops-711922",
+      "name": "ChickenChops",
+      "price": 1440,
+      "category": "BBQ",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1750070698-_0007_Chicken%20Chops_11zon.jpg"
+    },
+    {
+      "id": "mix-chaat-746247",
+      "name": "Mix Chaat",
+      "price": 425,
+      "category": "Chaat",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1742426294-Mix%20Chaat_11zon.jpg"
+    },
+    {
+      "id": "pani-puri-746248",
+      "name": "Pani Puri",
+      "price": 425,
+      "category": "Chaat",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1742426327-Pani%20Puri_11zon.jpg"
+    },
+    {
+      "id": "meethi-puri-746249",
+      "name": "Meethi Puri",
+      "price": 425,
+      "category": "Chaat",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1742426268-Meethi%20Puri_11zon.jpg"
+    },
+    {
+      "id": "bhel-puri-746250",
+      "name": "Bhel Puri",
+      "price": 425,
+      "category": "Chaat",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1742426194-Bhel%20Puri_11zon%20(1).jpg"
+    },
+    {
+      "id": "sev-puri-746251",
+      "name": "Sev Puri",
+      "price": 425,
+      "category": "Chaat",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1742426504-Sev%20Puri_11zon%20(1).jpg"
+    },
+    {
+      "id": "chicken-peshawari-karahi-696167",
+      "name": "Chicken Peshawari Karahi",
+      "price": 1990,
+      "category": "Karahi",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628219-Chicken%20Peshawari%20Karahi%20-%20Half.jpg",
+      "sizes": [
+        {
+          "size": "Half Kg",
+          "price": 1990
+        },
+        {
+          "size": "Full Kg",
+          "price": 3090
+        }
+      ],
+      "tag": "Most Favourite",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "mutton-peshawari-karahi-696171",
+      "name": "Mutton Peshawari Karahi",
+      "price": 2790,
+      "category": "Karahi",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628440-Mutton%20Peshawari%20Karahi%20-%20Half.jpg",
+      "sizes": [
+        {
+          "size": "Half Kg",
+          "price": 2790
+        },
+        {
+          "size": "Full Kg",
+          "price": 4190
+        }
+      ],
+      "tag": "Trending",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "chicken-white-karahi-696168",
+      "name": "Chicken White Karahi",
+      "price": 1990,
+      "category": "Karahi",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628260-Chicken%20White%20Karahi%20-%20Half.jpg",
+      "sizes": [
+        {
+          "size": "Half Kg",
+          "price": 1990
+        },
+        {
+          "size": "Full Kg",
+          "price": 3090
+        }
+      ]
+    },
+    {
+      "id": "chicken-cheese-karahi-696169",
+      "name": "Chicken Cheese Karahi",
+      "price": 2290,
+      "category": "Karahi",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1750070743-_0003_Chicken%20Cheese%20karahi_11zon.jpg",
+      "sizes": [
+        {
+          "size": "Half Kg",
+          "price": 2290
+        },
+        {
+          "size": "Full Kg",
+          "price": 3390
+        }
+      ]
+    },
+    {
+      "id": "balochi-tikka-696170",
+      "name": "Balochi Tikka",
+      "price": 1990,
+      "category": "Karahi",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628374-Balochi%20Tikka-half_11zon.jpg",
+      "sizes": [
+        {
+          "size": "Half Kg",
+          "price": 1990
+        },
+        {
+          "size": "Full Kg",
+          "price": 3090
+        }
+      ]
+    },
+    {
+      "id": "mutton-white-karahi-696172",
+      "name": "Mutton White Karahi",
+      "price": 2790,
+      "category": "Karahi",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628500-Mutton%20White%20Karahi%20-%20Half.jpg",
+      "sizes": [
+        {
+          "size": "Half Kg",
+          "price": 2790
+        },
+        {
+          "size": "Full Kg",
+          "price": 4190
+        }
+      ]
+    },
+    {
+      "id": "ghalib-signature-mutton-karahi-696173",
+      "name": "Ghalib Signature Mutton Karahi",
+      "price": 2790,
+      "category": "Karahi",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628549-Ghalib%20Signature%20Mutton%20Karahi%20-%20Half.jpg",
+      "sizes": [
+        {
+          "size": "Half Kg",
+          "price": 2790
+        },
+        {
+          "size": "Full Kg",
+          "price": 4190
+        }
+      ]
+    },
+    {
+      "id": "prawn-peshawari-karahi-696174",
+      "name": "Prawn Peshawari Karahi",
+      "price": 2600,
+      "category": "Karahi",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713628608-Prawn%20Peshawari%20Karahi_11zon.jpg",
+      "tag": "Special Flavors"
+    },
+    {
+      "id": "chicken-makhni-handi-696175",
+      "name": "Chicken Makhni Handi",
+      "price": 2490,
+      "category": "Handi",
+      "description": "Rich, creamy, and savory chicken in a signature buttery sauce.",
+      "image_url": "https://assets.indolj.io/upload/1713628678-Chicken%20Makhni%20Handi.jpg",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "chicken-paneer-reshmi-handi-696176",
+      "name": "Chicken Paneer Reshmi Handi",
+      "price": 2490,
+      "category": "Handi",
+      "description": "Tender chicken and soft paneer cooked in a creamy, aromatic gravy.",
+      "image_url": "https://assets.indolj.io/upload/1713628892-Chicken%20Paneer%20Reshmi%20Handi.jpg"
+    },
+    {
+      "id": "chicken-hunzai-handi-696177",
+      "name": "Chicken Hunzai Handi",
+      "price": 2490,
+      "category": "Handi",
+      "description": "A unique blend of savory chicken with fragrant herbs and mild spices.",
+      "image_url": "https://assets.indolj.io/upload/1713628914-Chicken%20Hunzai%20Handi.jpg",
+      "tag": "Popular"
+    },
+    {
+      "id": "chicken-kabab-handi-696178",
+      "name": "Chicken Kabab Handi",
+      "price": 2490,
+      "category": "Handi",
+      "description": "Spiced chicken kebabs blended in a deliciously savory sauce.",
+      "image_url": "https://assets.indolj.io/upload/1713628955-Chicken%20Kabab%20Handi_11zon.jpg"
+    },
+    {
+      "id": "palak-paneer-696180",
+      "name": "Palak Paneer",
+      "price": 980,
+      "category": "Chef's Recommendation",
+      "description": "Fresh spinach and creamy paneer unite for a delicious vegetarian treat.",
+      "image_url": "https://assets.indolj.io/upload/1713629122-Palak%20Paneer.jpg",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "tarka-daal-696179",
+      "name": "Tarka Daal",
+      "price": 920,
+      "category": "Chef's Recommendation",
+      "description": "Comfort in a bowl, slow-cooked lentils tempered with fragrant spices.",
+      "image_url": "https://assets.indolj.io/upload/1713629106-Tarka%20Daal.jpg",
+      "tag": "Trending"
+    },
+    {
+      "id": "mixed-sabzi-masala-696181",
+      "name": "Mixed Sabzi Masala",
+      "price": 920,
+      "category": "Chef's Recommendation",
+      "description": "Garden-fresh veggies sautéed in savory, aromatic masala.",
+      "image_url": "https://assets.indolj.io/upload/1713629141-Mixed%20Sabzi%20Masala.jpg"
+    },
+    {
+      "id": "lahori-chargha-696182",
+      "name": "Lahori Chargha",
+      "price": 1650,
+      "category": "Chef's Recommendation",
+      "description": "Crispy, tender chicken, marinated with traditional Lahori spices.",
+      "image_url": "https://assets.indolj.io/upload/1713629164-Lahori%20Chargha.jpg"
+    },
+    {
+      "id": "prawn-masala-696183",
+      "name": "Prawn Masala",
+      "price": 2150,
+      "category": "Chef's Recommendation",
+      "description": "Juicy prawns in a savory, spiced masala sauce.",
+      "image_url": "https://assets.indolj.io/upload/1713629186-Prawn%20Masala.jpg"
+    },
+    {
+      "id": "brain-masala-696184",
+      "name": "Brain Masala",
+      "price": 2150,
+      "category": "Chef's Recommendation",
+      "description": "Rich, creamy, and savory, a signature delicacy for the adventurous palate.",
+      "image_url": "https://assets.indolj.io/upload/1713629204-Brain%20Masala.jpg",
+      "tag": "Chef's Special"
+    },
+    {
+      "id": "ghalib-club-sandwich-696185",
+      "name": "Ghalib Club Sandwich",
+      "price": 1450,
+      "category": "Flavors of the World",
+      "description": "A classic club favorite packed with layers of savory delights.",
+      "image_url": "https://assets.indolj.io/upload/1713629239-Ghalib%20Club%20Sandwich.jpg",
+      "tag": "Best Seller",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "alfredo-pasta-696193",
+      "name": "Alfredo Pasta",
+      "price": 1490,
+      "category": "Flavors of the World",
+      "description": "A creamy, dreamy sauce over al dente pasta.",
+      "image_url": "https://assets.indolj.io/upload/1713629623-Alfredo%20Pasta.jpg",
+      "tag": "Trending",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "pasta-in-creamy-tomato-sauce-new-746263",
+      "name": "Pasta in creamy tomato sauce (new)",
+      "price": 1350,
+      "category": "Flavors of the World",
+      "description": "Smooth, rich sauce making comfort pasta magic.",
+      "image_url": null
+    },
+    {
+      "id": "dry-chicken-chilli-new-829004",
+      "name": "Dry Chicken Chilli (New)",
+      "price": 1450,
+      "category": "Flavors of the World",
+      "description": null,
+      "image_url": null,
+      "tag": "New Arrival"
+    },
+    {
+      "id": "crispy-fried-chicken-burger-696188",
+      "name": "Crispy Fried Chicken Burger",
+      "price": 1250,
+      "category": "Flavors of the World",
+      "description": "Crispy, golden chicken with a delicious crunch in every bite.",
+      "image_url": "https://assets.indolj.io/upload/1713629402-Crispy%20Fried%20Chicken%20Burger.jpg"
+    },
+    {
+      "id": "ghalib-chicken-burger-with-garlic-mayo-696190",
+      "name": "Ghalib Chicken Burger With Garlic Mayo",
+      "price": 1250,
+      "category": "Flavors of the World",
+      "description": "Chicken and creamy garlic sauce in a soft bun for a savory treat.",
+      "image_url": "https://assets.indolj.io/upload/1713629441-Ghalib%20Chicken%20Burger%20with%20garlic%20mayo.jpg"
+    },
+    {
+      "id": "chargrilled-beef-burger-with-cheddar-mushrooms-696191",
+      "name": "Chargrilled Beef Burger With Cheddar Mushrooms",
+      "price": 1300,
+      "category": "Flavors of the World",
+      "description": "Smoky beef patty topped with savory cheddar mushrooms.",
+      "image_url": "https://assets.indolj.io/upload/1713629532-Chargrilled%20beef%20burger%20with%20cheddar%20mushrooms.jpg"
+    },
+    {
+      "id": "pasta-in-special-signature-sauce-696195",
+      "name": "Pasta in Special Signature Sauce",
+      "price": 1450,
+      "category": "Flavors of the World",
+      "description": "A bold, savory sauce that makes every bite memorable.",
+      "image_url": "https://assets.indolj.io/upload/1713629678-Pasta%20in%20special%20signature%20sauce.jpg"
+    },
+    {
+      "id": "fish-and-chips-696196",
+      "name": "Fish & Chips",
+      "price": 1650,
+      "category": "Flavors of the World",
+      "description": "Crispy fish and golden chips — a timeless duo.",
+      "image_url": "https://assets.indolj.io/upload/1713629702-Fish%20anf%20Chips.jpg"
+    },
+    {
+      "id": "tarragon-chicken-696198",
+      "name": "Tarragon Chicken",
+      "price": 1450,
+      "category": "Flavors of the World",
+      "description": "Fragrant tarragon sauce with tender chicken for a savory experience. Served with your choice of side lines.",
+      "image_url": "https://assets.indolj.io/upload/1713629787-Tarragon%20Chicken.jpg"
+    },
+    {
+      "id": "moroccan-chicken-696199",
+      "name": "Moroccan Chicken",
+      "price": 1450,
+      "category": "Flavors of the World",
+      "description": "Rich Moroccan spices and tender chicken in every bite. Served with your choice of side lines.",
+      "image_url": "https://assets.indolj.io/upload/1713629811-Moroccan%20Chicken.jpg"
+    },
+    {
+      "id": "cheesy-chicken-corden-blue-696200",
+      "name": "Cheesy Chicken Corden Blue",
+      "price": 1550,
+      "category": "Flavors of the World",
+      "description": "Crispy chicken wrapped with savory ham and creamy cheese.",
+      "image_url": "https://assets.indolj.io/upload/1713629846-Cheesy%20Chicken%20Corden%20Blue_11zon.jpg",
+      "tag": "Trending"
+    },
+    {
+      "id": "parmesan-chicken-696201",
+      "name": "Parmesan Chicken",
+      "price": 1550,
+      "category": "Flavors of the World",
+      "description": "Crispy chicken topped with parmesan for savory perfection. Served with your choice of side lines.",
+      "image_url": "https://assets.indolj.io/upload/1713629868-Parmesan%20Chicken.jpg"
+    },
+    {
+      "id": "chicken-steak-with-moroccan-sauce-778766",
+      "name": "Chicken Steak with moroccan sauce",
+      "price": 1750,
+      "category": "Steaks",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "beef-steak-with-creamy-pepper-sauce-829006",
+      "name": "Beef Steak With Creamy Pepper Sauce",
+      "price": 2690,
+      "category": "Steaks",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "chicken-steak-with-creamy-tarragon-sauce-696202",
+      "name": "Chicken Steak with creamy tarragon sauce",
+      "price": 1750,
+      "category": "Steaks",
+      "description": "Tender chicken paired with a luxurious sauce. Served with your choice of side lines.",
+      "image_url": "https://assets.indolj.io/upload/1713629956-Chicken%20Steak.jpg",
+      "tag": "Special Flavors"
+    },
+    {
+      "id": "beef-steak-with-creamy-tarragon-sauce-696203",
+      "name": "Beef Steak with creamy tarragon sauce",
+      "price": 2690,
+      "category": "Steaks",
+      "description": "with creamy tarragon sauce",
+      "image_url": "https://assets.indolj.io/upload/1713629984-Beef%20Steak.jpg"
+    },
+    {
+      "id": "decked-beef-steak-696204",
+      "name": "Decked Beef Steak",
+      "price": 2690,
+      "category": "Steaks",
+      "description": "The rich earthiness of mushrooms meets savory beef. Served with your choice of side lines.",
+      "image_url": "https://assets.indolj.io/upload/1713630005-Decked%20Beef%20Steak.jpg"
+    },
+    {
+      "id": "american-steak-696205",
+      "name": "American Steak",
+      "price": 1750,
+      "category": "Steaks",
+      "description": "All-American comfort with a savory sauce. Served with your choice of side lines.",
+      "image_url": "https://assets.indolj.io/upload/1713630031-American%20Beef%20Steak.jpg",
+      "sizes": [
+        {
+          "size": "Chicken",
+          "price": 1750
+        },
+        {
+          "size": "Beef",
+          "price": 2690
+        }
+      ],
+      "tag": "Trending"
+    },
+    {
+      "id": "beef-steak-with-creamy-mustard-sauce-696206",
+      "name": "Beef Steak With Creamy Mustard Sauce",
+      "price": 2690,
+      "category": "Steaks",
+      "description": "Bold mustard sauce adds flair to a juicy beef steak. Served with your choice of side lines.",
+      "image_url": "https://assets.indolj.io/upload/1713630082-Beef%20Steak%20with%20creamy%20mustard%20sauce_11zon.jpg"
+    },
+    {
+      "id": "margherita-696207",
+      "name": "Margherita",
+      "price": 1050,
+      "category": "Brick Oven Pizza",
+      "description": "Simple, classic, and delicious – tomato sauce and mozzarella perfection.",
+      "image_url": "https://assets.indolj.io/upload/1713631631-Margherita.jpg"
+    },
+    {
+      "id": "chicken-fajita-696208",
+      "name": "Chicken Fajita",
+      "price": 1650,
+      "category": "Brick Oven Pizza",
+      "description": "Bold chicken, peppers, and onions with savory sauce on a crisp crust.",
+      "image_url": "https://assets.indolj.io/upload/1713631650-Chicken%20Fajita.jpg",
+      "tag": "Trending"
+    },
+    {
+      "id": "pepperoni-696209",
+      "name": "Pepperoni",
+      "price": 1650,
+      "category": "Brick Oven Pizza",
+      "description": "A classic pizza topped with savory slices of spicy pepperoni.",
+      "image_url": "https://assets.indolj.io/upload/1713631669-Pepperoni.jpg"
+    },
+    {
+      "id": "chicken-tikka-pizza-696210",
+      "name": "Chicken Tikka Pizza",
+      "price": 1650,
+      "category": "Brick Oven Pizza",
+      "description": "Bold, savory chicken tikka flavors baked to perfection.",
+      "image_url": "https://assets.indolj.io/upload/1713633033-Chicken%20Tikka%20Pizza_11zon.jpg"
+    },
+    {
+      "id": "spicy-sicilian-696211",
+      "name": "Spicy Sicilian",
+      "price": 1650,
+      "category": "Brick Oven Pizza",
+      "description": "Fiery sauce and savory toppings for pizza lovers who crave a kick.",
+      "image_url": "https://assets.indolj.io/upload/1713631729-Spicy%20Sicilian.jpg",
+      "tag": "Best Seller"
+    },
+    {
+      "id": "mac-and-cheese-696212",
+      "name": "Mac & Cheese",
+      "price": 1050,
+      "category": "Kid's Corner",
+      "description": "Cheesy comfort that kids can’t resist.",
+      "image_url": "https://assets.indolj.io/upload/1713631794-Mac%20and%20Cheese.jpg"
+    },
+    {
+      "id": "chicken-nuggets-with-fries-696213",
+      "name": "Chicken Nuggets with Fries",
+      "price": 850,
+      "category": "Kid's Corner",
+      "description": "Crispy nuggets paired with golden fries for tiny tastebuds.",
+      "image_url": "https://assets.indolj.io/upload/1713631835-Chicken%20Nuggets%20with%20Fries.jpg"
+    },
+    {
+      "id": "cheese-pizza-696214",
+      "name": "Cheese Pizza",
+      "price": 1050,
+      "category": "Kid's Corner",
+      "description": "Gooey, cheesy, and kid-approved every time.",
+      "image_url": "https://assets.indolj.io/upload/1713631881-Cheese%20Pizza.jpg"
+    },
+    {
+      "id": "vegetable-fried-rice-696216",
+      "name": "Vegetable Fried Rice",
+      "price": 500,
+      "category": "Rice",
+      "description": "Wok-tossed veggies and savory rice for a wholesome bite.",
+      "image_url": "https://assets.indolj.io/upload/1713633102-Vegetable%20Rice.jpg",
+      "featured_in": [
+        "Popular Items"
+      ]
+    },
+    {
+      "id": "matka-biryani-696215",
+      "name": "Matka Biryani",
+      "price": 1450,
+      "category": "Rice",
+      "description": "Fragrant, spiced rice slow-cooked in a clay pot for an aromatic treat.",
+      "image_url": "https://assets.indolj.io/upload/1713633080-Matka%20Biryani.jpg",
+      "tag": "Chef's Special"
+    },
+    {
+      "id": "egg-fried-rice-696217",
+      "name": "Egg Fried Rice",
+      "price": 550,
+      "category": "Rice",
+      "description": "Fluffy rice and scrambled egg sautéed to perfection.",
+      "image_url": "https://assets.indolj.io/upload/1713633121-Egg%20Fried%20Rice.jpg",
+      "tag": "Special Flavors"
+    },
+    {
+      "id": "saffron-rice-696218",
+      "name": "Saffron rice",
+      "price": 350,
+      "category": "Rice",
+      "description": "Fragrant and delicate rice with a hint of saffron elegance.",
+      "image_url": "https://assets.indolj.io/upload/1713633143-Saffron%20rice.jpg"
+    },
+    {
+      "id": "plain-naan-696219",
+      "name": "Plain Naan",
+      "price": 90,
+      "category": "Naan, Paratha & Chapati",
+      "description": "Soft, warm, and baked to perfection.",
+      "image_url": "https://assets.indolj.io/upload/1713633168-Plain%20Naan.jpg"
+    },
+    {
+      "id": "garlic-naan-696220",
+      "name": "Garlic Naan",
+      "price": 160,
+      "category": "Naan, Paratha & Chapati",
+      "description": "Fragrant, buttery, and infused with savory garlic.",
+      "image_url": "https://assets.indolj.io/upload/1713633185-Garlic%20Naan.jpg",
+      "tag": "Popular"
+    },
+    {
+      "id": "roghni-naan-696221",
+      "name": "Roghni Naan",
+      "price": 160,
+      "category": "Naan, Paratha & Chapati",
+      "description": "Rich and soft, with a golden, crisp top.",
+      "image_url": "https://assets.indolj.io/upload/1713633204-Roghni%20Naan.jpg"
+    },
+    {
+      "id": "kandhari-naan-696222",
+      "name": "Kandhari Naan",
+      "price": 140,
+      "category": "Naan, Paratha & Chapati",
+      "description": "Traditional, flavorful, and perfect for any curry.",
+      "image_url": "https://assets.indolj.io/upload/1713633224-Kandhari%20Naan.jpg"
+    },
+    {
+      "id": "cheese-naan-696223",
+      "name": "Cheese Naan",
+      "price": 770,
+      "category": "Naan, Paratha & Chapati",
+      "description": "Stuffed with creamy cheese for a gooey delight.",
+      "image_url": "https://assets.indolj.io/upload/1713633241-Cheese%20Naan.jpg",
+      "tag": "Popular"
+    },
+    {
+      "id": "lachha-paratha-696224",
+      "name": "Lachha Paratha",
+      "price": 170,
+      "category": "Naan, Paratha & Chapati",
+      "description": "Flaky, layered, and deliciously crisp.",
+      "image_url": "https://assets.indolj.io/upload/1713633259-Lachha%20Paratha.jpg"
+    },
+    {
+      "id": "puri-paratha-696225",
+      "name": "Puri Paratha",
+      "price": 170,
+      "category": "Naan, Paratha & Chapati",
+      "description": "Puffy, golden, and indulgently crisp.",
+      "image_url": "https://assets.indolj.io/upload/1713633287-Puri%20Paratha.jpg"
+    },
+    {
+      "id": "chapati-696226",
+      "name": "Chapati",
+      "price": 80,
+      "category": "Naan, Paratha & Chapati",
+      "description": "Light, soft, and freshly made.",
+      "image_url": "https://assets.indolj.io/upload/1713633318-Chapati_11zon.jpeg"
+    },
+    {
+      "id": "whole-wheat-roti-696227",
+      "name": "Whole Wheat Roti",
+      "price": 90,
+      "category": "Naan, Paratha & Chapati",
+      "description": "Wholesome, rustic, and soft for every bite.",
+      "image_url": "https://assets.indolj.io/upload/1713633366-Whole%20Wheat%20Roti.jpg"
+    },
+    {
+      "id": "lava-cake-with-vanilla-ice-cream-778772",
+      "name": "Lava Cake with vanilla ice cream",
+      "price": 900,
+      "category": "Desserts",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "chocolate-fudge-brownie-with-ice-cream-746266",
+      "name": "Chocolate Fudge Brownie with Ice Cream",
+      "price": 700,
+      "category": "Desserts",
+      "description": "Indulge in pure decadence with our rich and gooey Chocolate Fudge Brownie, topped with a generous scoop of creamy ice cream.",
+      "image_url": null
+    },
+    {
+      "id": "sizzling-brownie-with-vanilla-ice-cream-746267",
+      "name": "sizzling Brownie With Vanilla Ice Cream",
+      "price": 900,
+      "category": "Desserts",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "kulfi-falooda-746268",
+      "name": "Kulfi Falooda",
+      "price": 540,
+      "category": "Desserts",
+      "description": "Indulge in the rich and creamy Kulfi Falooda, a decadent dessert that will take your taste buds on a delightful journey. Layers of silky smooth kulfi ice cream, vermicelli noodles, and sweet rose syrup come together in perfect harmony to create a truly irresistible treat.",
+      "image_url": "https://assets.indolj.io/upload/1742426234-Kulfi%20Falooda_11zon.jpg"
+    },
+    {
+      "id": "ice-cream-746269",
+      "name": "Ice Cream",
+      "price": 320,
+      "category": "Desserts",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "three-milk-cake-slice-new-829007",
+      "name": "Three Milk Cake Slice (New)",
+      "price": 500,
+      "category": "Desserts",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "kunafa-three-milk-new-829008",
+      "name": "Kunafa Three Milk (New)",
+      "price": 600,
+      "category": "Desserts",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "rabri-696228",
+      "name": "Rabri",
+      "price": 500,
+      "category": "Desserts",
+      "description": "Lush, creamy, and fragrant, a timeless delight.",
+      "image_url": "https://assets.indolj.io/upload/1713633421-Rabri.jpg"
+    },
+    {
+      "id": "hot-gulab-jamun-696229",
+      "name": "Hot Gulab Jamun",
+      "price": 400,
+      "category": "Desserts",
+      "description": "Warm, soft, and soaked in sweetness. Pure comfort!",
+      "image_url": "https://assets.indolj.io/upload/1713633439-Hot%20Gulab%20Jamun.jpg"
+    },
+    {
+      "id": "chocolate-divine-cake-slice-696230",
+      "name": "Chocolate Divine Cake Slice",
+      "price": 600,
+      "category": "Desserts",
+      "description": "A rich, divine treat for every bite.",
+      "image_url": "https://assets.indolj.io/upload/1713633462-Chocolate%20Divine%20Cake%20Slice.jpg",
+      "tag": "Popular"
+    },
+    {
+      "id": "chocolate-divine-cake-2-pounds-696231",
+      "name": "Chocolate Divine Cake 2 pounds",
+      "price": 3000,
+      "category": "Desserts",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1713633478-Chocolate%20Divine%20Cake%202%20pounds.jpg"
+    },
+    {
+      "id": "gajar-ka-halwa-797129",
+      "name": "Gajar ka Halwa",
+      "price": 390,
+      "category": "Desserts",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "doodh-patti-778768",
+      "name": "Doodh Patti",
+      "price": 320,
+      "category": "Hot Beverages",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "kashmiri-chai-778769",
+      "name": "Kashmiri Chai",
+      "price": 390,
+      "category": "Hot Beverages",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "elaichi-chai-778770",
+      "name": "Elaichi Chai",
+      "price": 300,
+      "category": "Hot Beverages",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "kawah-778771",
+      "name": "Kawah",
+      "price": 230,
+      "category": "Hot Beverages",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "mango-lassi-765591",
+      "name": "Mango Lassi",
+      "price": 380,
+      "category": "Cold Beverages",
+      "description": "Indulge your taste buds with the refreshing and creamy goodness of Mango Lassi. This delightful drink combines the sweetness of ripe mangoes with tangy yogurt, creating a tropical oasis in every sip.",
+      "image_url": "https://assets.indolj.io/upload/1750070489-%7F_0001_mango%20lassi.jpg"
+    },
+    {
+      "id": "mango-juice-765592",
+      "name": "Mango Juice",
+      "price": 480,
+      "category": "Cold Beverages",
+      "description": "Indulge in the pure, tropical bliss of our refreshing Mango Juice. Each sip bursts with the sweet, sun-ripened essence of juicy mangoes, leaving your taste buds in a state of sheer delight. Savor the luscious taste of summer with every glass of our tantalizing Mango Juice.",
+      "image_url": "https://assets.indolj.io/upload/1750070513-%7F_0002_Mango%20Juice.jpg"
+    },
+    {
+      "id": "mango-shake-765593",
+      "name": "Mango Shake",
+      "price": 520,
+      "category": "Cold Beverages",
+      "description": "Indulge in the luscious blend of ripe mangoes and creamy milk in every sip of our refreshing Mango Shake.",
+      "image_url": "https://assets.indolj.io/upload/1750070550-%7F_0000_Mango%20Juice.jpg"
+    },
+    {
+      "id": "cold-coffee-721376",
+      "name": "Cold Coffee",
+      "price": 600,
+      "category": "Cold Beverages",
+      "description": "Rich, creamy, and ice-cold indulgence.",
+      "image_url": null
+    },
+    {
+      "id": "peachy-lychee-715528",
+      "name": "Peachy Lychee",
+      "price": 500,
+      "category": "Cold Beverages",
+      "description": "Fragrant lychee meets luscious peach.",
+      "image_url": "https://assets.indolj.io/upload/1725393009-Peachy%20Lychee.jpg"
+    },
+    {
+      "id": "mint-lemonade-715488",
+      "name": "Mint Lemonade",
+      "price": 420,
+      "category": "Cold Beverages",
+      "description": "Zesty lemon and cooling mint for a fresh kick.",
+      "image_url": "https://assets.indolj.io/upload/1725393029-Mint%20Lemonade.jpg"
+    },
+    {
+      "id": "fresh-juice-715490",
+      "name": "Fresh Juice",
+      "price": 600,
+      "category": "Cold Beverages",
+      "description": "Pure fruit, freshly squeezed for a revitalizing treat.",
+      "image_url": "https://assets.indolj.io/upload/1725393121-Fresh%20Juice.jpg"
+    },
+    {
+      "id": "pina-colada-715491",
+      "name": "Pina Colada",
+      "price": 520,
+      "category": "Cold Beverages",
+      "description": "Tropical paradise in a creamy sip.",
+      "image_url": "https://assets.indolj.io/upload/1725392986-Pina%20Colada.jpg"
+    },
+    {
+      "id": "meethi-lassi-715494",
+      "name": "Meethi Lassi",
+      "price": 420,
+      "category": "Cold Beverages",
+      "description": "Smooth yogurt sweetness in a glass.",
+      "image_url": "https://assets.indolj.io/upload/1725393045-Meethi%20lassi.jpg"
+    },
+    {
+      "id": "namkeen-lassi-715496",
+      "name": "Namkeen Lassi",
+      "price": 420,
+      "category": "Cold Beverages",
+      "description": "Salty, creamy, and oh so traditional.",
+      "image_url": "https://assets.indolj.io/upload/1725393019-Namkeen%20Lassi.jpg"
+    },
+    {
+      "id": "sugarcane-juice-715499",
+      "name": "Sugarcane Juice",
+      "price": 300,
+      "category": "Cold Beverages",
+      "description": "Pure, sweet, and invigorating.",
+      "image_url": "https://assets.indolj.io/upload/1742426429-Sugarcane_11zon.png"
+    },
+    {
+      "id": "tropical-sunset-715502",
+      "name": "Tropical Sunset",
+      "price": 450,
+      "category": "Cold Beverages",
+      "description": "Blend of peach & red grapes",
+      "image_url": "https://assets.indolj.io/upload/1725393091-Tropical%20Sunset.jpg"
+    },
+    {
+      "id": "blonde-bombshell-new-715510",
+      "name": "Blonde Bombshell (New)",
+      "price": 420,
+      "category": "Cold Beverages",
+      "description": "(blend of mango & orange)",
+      "image_url": "https://assets.indolj.io/upload/1725393112-Blonde%20Bombshell.jpg"
+    },
+    {
+      "id": "tangy-surprise-new-715518",
+      "name": "Tangy Surprise (New)",
+      "price": 500,
+      "category": "Cold Beverages",
+      "description": "(Blend of apple & peach)",
+      "image_url": "https://assets.indolj.io/upload/1725393079-Tangy%20Surprise.jpg"
+    },
+    {
+      "id": "tropical-blue-lemonade-715500",
+      "name": "Tropical Blue Lemonade",
+      "price": 420,
+      "category": "Cold Beverages",
+      "description": "A wave of citrus and blue refreshment.",
+      "image_url": null
+    },
+    {
+      "id": "strawberry-and-orange-margarita-715507",
+      "name": "Strawberry and Orange Margarita",
+      "price": 450,
+      "category": "Cold Beverages",
+      "description": "A fruity, tangy dance in every sip.",
+      "image_url": null
+    },
+    {
+      "id": "mint-lassi-715498",
+      "name": "Mint Lassi",
+      "price": 390,
+      "category": "Cold Beverages",
+      "description": "Refreshingly creamy with a hint of mint.",
+      "image_url": null
+    },
+    {
+      "id": "sunset-heaven-715508",
+      "name": "Sunset Heaven",
+      "price": 450,
+      "category": "Cold Beverages",
+      "description": "Blend of Peach & Orange",
+      "image_url": null
+    },
+    {
+      "id": "mango-peach-paradise-715516",
+      "name": "Mango Peach Paradise",
+      "price": 500,
+      "category": "Cold Beverages",
+      "description": "Tropical sweetness at its best.",
+      "image_url": null
+    },
+    {
+      "id": "mineral-water-715486",
+      "name": "Mineral Water",
+      "price": 150,
+      "category": "Cold Beverages",
+      "description": "Pure refreshment in every sip.",
+      "image_url": null,
+      "sizes": [
+        {
+          "size": "small",
+          "price": 150
+        },
+        {
+          "size": "large",
+          "price": 260
+        }
+      ]
+    },
+    {
+      "id": "soft-drinks-715483",
+      "name": "Soft Drinks",
+      "price": 220,
+      "category": "Cold Beverages",
+      "description": null,
+      "image_url": "https://assets.indolj.io/upload/1725538180-13172247.jpg"
+    },
+    {
+      "id": "icd-tea-715493",
+      "name": "Icd Tea",
+      "price": 520,
+      "category": "Cold Beverages",
+      "description": null,
+      "image_url": null
+    },
+    {
+      "id": "sparkling-peach-margarita-715919",
+      "name": "Sparkling Peach Margarita",
+      "price": 500,
+      "category": "Cold Beverages",
+      "description": "Bubbly, juicy, and elegantly sweet.",
+      "image_url": null
+    },
+    {
+      "id": "tropicana-715525",
+      "name": "Tropicana",
+      "price": 500,
+      "category": "Cold Beverages",
+      "description": "Blend of Orange, Pineapple & Blueberry",
+      "image_url": null
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+@import "tailwindcss";
+
+/*
+ * Food Fusion — "Velvet Espresso" design tokens.
+ * Tailwind v4 reads its theme from CSS: every `--color-*` below becomes a
+ * utility (bg-surface, text-cream, ring-gold …). Semantic names follow the
+ * shadcn/ui convention so generated shadcn components inherit the theme.
+ */
+@theme {
+  /* Raw palette */
+  --color-espresso: #0b0908;
+  --color-espresso-soft: #14100e;
+  --color-charcoal: #181513;
+  --color-velvet: #1e1b18;
+  --color-velvet-raised: #262220;
+  --color-gold: #e5a93c;
+  --color-saffron: #d9822b;
+  --color-cream: #f8f5f0;
+  --color-cashmere: #a8a099;
+  --color-sage: #2e7d5e;
+  --color-sage-bright: #3e9c78;
+  --color-ember: #d4543c;
+
+  /* Semantic (shadcn) */
+  --color-background: var(--color-espresso);
+  --color-foreground: var(--color-cream);
+  --color-card: var(--color-velvet);
+  --color-card-foreground: var(--color-cream);
+  --color-popover: var(--color-charcoal);
+  --color-popover-foreground: var(--color-cream);
+  --color-primary: var(--color-gold);
+  --color-primary-foreground: #1a1206;
+  --color-secondary: var(--color-velvet-raised);
+  --color-secondary-foreground: var(--color-cream);
+  --color-muted: var(--color-charcoal);
+  --color-muted-foreground: var(--color-cashmere);
+  --color-accent: var(--color-saffron);
+  --color-accent-foreground: #1a1206;
+  --color-success: var(--color-sage);
+  --color-destructive: var(--color-ember);
+  --color-border: rgb(255 255 255 / 0.1);
+  --color-input: rgb(255 255 255 / 0.12);
+  --color-ring: var(--color-gold);
+
+  /* Glass surface: obsidian at 60% */
+  --color-glass: rgb(30 27 24 / 0.6);
+
+  /* Chart roles (validated for CVD + contrast on --color-velvet) */
+  --color-chart-primary: var(--color-gold);
+  --color-chart-positive: #3e9c78;
+  --color-chart-neutral: #6a625c;
+  --color-chart-negative: #cf7a2e;
+  --color-chart-grid: rgb(248 245 240 / 0.06);
+
+  /* Typography — Geist for UI, Playfair Display for editorial display */
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-playfair), ui-serif, Georgia, serif;
+  --tracking-editorial: -0.035em;
+  --tracking-label: 0.14em;
+
+  /* Shape & depth */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+  --shadow-velvet: 0 1px 0 0 rgb(248 245 240 / 0.04) inset,
+    0 24px 48px -24px rgb(0 0 0 / 0.6);
+  --shadow-glow: 0 0 0 1px rgb(229 169 60 / 0.5),
+    0 0 40px -6px rgb(229 169 60 / 0.45);
+
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-pulse-ring: pulse-ring 1.6s cubic-bezier(0.2, 0.6, 0.3, 1) infinite;
+  @keyframes pulse-ring {
+    0% { box-shadow: 0 0 0 0 rgb(229 169 60 / 0.55); }
+    100% { box-shadow: 0 0 0 18px rgb(229 169 60 / 0); }
+  }
+  --animate-drift-a: drift-a 26s ease-in-out infinite alternate;
+  --animate-drift-b: drift-b 34s ease-in-out infinite alternate;
+  @keyframes drift-a {
+    from { transform: translate3d(-12%, -6%, 0) scale(1); }
+    to { transform: translate3d(14%, 10%, 0) scale(1.25); }
+  }
+  @keyframes drift-b {
+    from { transform: translate3d(10%, 8%, 0) scale(1.1); }
+    to { transform: translate3d(-14%, -10%, 0) scale(0.9); }
+  }
+  --animate-shimmer: shimmer 1.6s linear infinite;
+  @keyframes shimmer {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100%); }
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    background: var(--color-espresso);
+    /* Dark scrollbar (Firefox) */
+    scrollbar-color: var(--color-velvet) var(--color-espresso);
+  }
+  body {
+    /* Ambient mesh lighting: warm key light high and centre, falling to espresso. */
+    background: radial-gradient(circle at 50% 30%, rgb(229 169 60 / 0.12) 0%, rgb(20 16 14 / 0.8) 50%, #0b0908 100%) fixed, #0b0908;
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    letter-spacing: -0.011em;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Fixed film-grain overlay, one composited layer for the whole page. */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0.045;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+  ::selection {
+    background: rgb(229 169 60 / 0.35);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+  /* Dark scrollbar (Chromium / Safari) */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0b0908;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e1b18;
+    border: 2px solid #0b0908;
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2b2622;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+}
+
+/* Animatable angle for the conic border sweep. */
+@property --sweep {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes sweep-spin {
+  to { --sweep: 360deg; }
+}
+
+@layer components {
+  /*
+   * Golden border light-sweep: a conic highlight travels around a 1px ring
+   * (masked to the border box) while the card glows from within.
+   */
+  .gold-border {
+    transition: border-color 0.5s var(--ease-luxe), box-shadow 0.5s var(--ease-luxe);
+  }
+  .gold-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    padding: 1px;
+    border-radius: inherit;
+    pointer-events: none;
+    background: conic-gradient(from var(--sweep), transparent 0deg 230deg, rgb(229 169 60 / 0.9) 290deg, #fff1cf 318deg, rgb(229 169 60 / 0.9) 340deg, transparent 360deg);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.4s var(--ease-luxe);
+  }
+  .gold-border:hover {
+    border-color: rgb(229 169 60 / 0.55);
+    box-shadow:
+      inset 0 0 32px rgb(229 169 60 / 0.12),
+      inset 0 1px 0 rgb(255 241 207 / 0.12),
+      0 30px 60px -24px rgb(229 169 60 / 0.35),
+      0 24px 48px -24px rgb(0 0 0 / 0.7);
+  }
+  .gold-border:hover::before {
+    opacity: 1;
+    animation: sweep-spin 2.6s linear infinite;
+  }
+  /* Soft warm vignette framing dish photos. */
+  .warm-vignette {
+    background: radial-gradient(ellipse 75% 70% at 50% 45%, transparent 55%, rgb(40 18 6 / 0.55) 100%);
+  }
+
+  /* Glass surface for floating chrome (header, chips, drawers, assistant). */
+  .glass {
+    background: var(--color-glass);
+    backdrop-filter: blur(40px) saturate(150%);
+    -webkit-backdrop-filter: blur(40px) saturate(150%);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-velvet);
+  }
+  /*
+   * Same look without the blur, for surfaces that repeat (161 menu cards).
+   * Over the flat page background the blur is invisible but costs a
+   * compositing pass per card on every scroll frame.
+   */
+  .glass-flat {
+    background: var(--color-glass);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-velvet);
+  }
+  .eyebrow {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+    color: var(--color-gold);
+  }
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    font-feature-settings: "liga", "dlig";
+  }
+  /* Promote to its own GPU layer: only for continuously animated layers. */
+  .gpu {
+    will-change: transform, opacity;
+    transform: translateZ(0);
+  }
+  /* Light sweep across a button on hover. */
+  .sweep {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .sweep::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / 0.28) 50%, transparent 70%);
+    transform: translateX(-120%);
+    transition: transform 0.75s var(--ease-luxe);
+  }
+  .sweep:hover::after {
+    transform: translateX(120%);
+  }
+  /* Skeleton shimmer for images still downloading. */
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+    background: var(--color-velvet-raised);
+  }
+  .shimmer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgb(229 169 60 / 0.08), transparent);
+    animation: var(--animate-shimmer);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .gold-border:hover::before {
+      animation: none;
+    }
+    .sweep::after,
+    .shimmer::after {
+      display: none;
+    }
+  }
+}
